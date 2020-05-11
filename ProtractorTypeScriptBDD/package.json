@@ -1,0 +1,35 @@
+{
+  "name": "protractorpractice",
+  "version": "1.0.0",
+  "description": "protractor applicatio automating rahulshetty Angular sample app",
+  "main": "index.js",
+  "scripts": {
+    "test_0": "protractor js/configuration.js",
+    "test": "protractor js/cucumberconfig.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "Gaurav Sharan",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.4",
+    "typescript": "~3.8.3",
+    "jasmine": "~3.5.0",
+    "@types/jasmine": "~3.5.10",
+    "@types/jasminewd2": "~2.0.8",
+    "ts-node": "^8.10.1",
+    "@types/node": "^13.13.4",
+    "protractor-cucumber-framework": "~6.2.1",
+    "cucumber": "~6.0.5",
+    "@types/cucumber": "~6.0.1",
+    "chai": "^4.2.0",
+    "@types/chai": "~4.2.11",
+    "chai-as-promised": "^7.1.1",
+    "chai-smoothie": "^0.3.2",
+    "cucumber-html-reporter": "5.2.0"
+  },
+  "devDependencies": {
+    "chai-smoothie": "^0.3.2"
+  }
+}
